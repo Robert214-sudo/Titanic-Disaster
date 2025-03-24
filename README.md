@@ -80,7 +80,7 @@ The model was assessed using the following evaluation metrics:
 
 ##  Ethical Considerations in Using Predictive Models for Survival Prediction
 
-The use of predictive models in life-or-death scenarios—such as survival prediction in disasters raises important ethical considerations. Although the Titanic dataset is a historical case used for educational purposes, it mimics real-world decision-making where predictive algorithms may be used in fields like healthcare, disaster response, or criminal justice. This section highlights potential limitations, risks and biases associated with survival prediction models, especially when applied beyond academic use.
+The use of predictive models in life or death scenarios—such as survival prediction in disasters raises important ethical considerations. Although the Titanic dataset is a historical case used for educational purposes, it mimics real-world decision-making where predictive algorithms may be used in fields like healthcare, disaster response, or criminal justice. This section highlights potential limitations, risks and biases associated with survival prediction models, especially when applied beyond academic use.
 
 ### Potential Negative Impacts of the Model
 
@@ -89,7 +89,7 @@ Predictive models rely heavily on historical data. If the training data reflects
 - **Gender** and **class (`Pclass`)** are strong predictors of survival. A model may learn to associate higher survival chances with **wealth** or **being female**, reflecting historical survival priorities—not necessarily ethical decision-making in modern contexts.
 - Using such a model uncritically could normalize these biases and potentially **devalue individuals** from lower social classes or minority groups in serious applications (e.g., disaster triage, emergency planning).
 
-Moreover, if such a model were applied in real-world scenarios, it could misinform decision-making processes if the data used is **too narrow, outdated, or demographically skewed**.
+Moreover, if such a model were applied in real world scenarios, it could misinform decision-making processes if the data used is **too narrow, outdated, or demographically skewed**.
 
 *As Noble (2018) explains in* Algorithms of Oppression, *machine learning models trained on biased datasets can unintentionally reinforce structural inequalities.*
 ## Limitations of the Project
@@ -132,13 +132,12 @@ Survival prediction models are inherently **probabilistic**, not deterministic. 
 
 These models should never be used in isolation for high-stakes decision-making. They must be supported with **human judgment**, **contextual awareness**, and **ethical oversight**.
 
----
 
 ### 🧠 Educational Context
 
 This project is designed for **educational purposes**. The Titanic dataset is widely used as a case study for teaching **data preprocessing**, **classification modeling**, and **bias detection**. However, the ethical lessons learned from working with this dataset are essential for real-world data science applications that impact human lives.
 
----
+
 ### Unexpected Results and Their Implications
 
 Predictive models, including the Titanic survival model, can sometimes produce **unexpected or counterintuitive results**, which may raise concerns about reliability and trust.
@@ -147,7 +146,7 @@ Predictive models, including the Titanic survival model, can sometimes produce *
 - These misclassifications could result from **imbalanced data**, **influential outliers**, or **overfitting**.
 - When applied in real-world scenarios, unexpected results can lead to **unfair prioritization** or **misguided decisions**.
 
-For example, if a similar model were used in disaster-response planning and incorrectly prioritized survival likelihood based on class or gender alone, it could cause **inequitable treatment** and reduce **public trust** in data-driven systems.
+For example, if a similar model were used in disaster-response planning and incorrectly prioritized survival likelihood based on class or gender alone, it could cause **inequitable treatment** and reduce **public trust** in data driven systems.
 
 These risks highlight the importance of:
 - **Rigorous model validation**
