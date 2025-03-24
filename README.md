@@ -5,7 +5,7 @@ This project is a predictive modeling exercise based on the classic Titanic: Mac
 * Model date: February 2025
 * Model version: 1.0
 * License: MIT
-* Model implementation:
+* Model implementation: https://github.com/Robert214-sudo/Titanic-Disaster/blob/main/Untitled.ipynb
 ## Intended Use
 * Primary intended uses: This model is an educational example for random forest regression model for predicting survivors of titanic based on different income, sex etc. It is intended to demonstrate the application of random forest model in data analysis and predictive modeling
 * Primary intended users: Students and those that want to learn about modeling
