@@ -29,7 +29,7 @@ This project is a predictive modeling exercise based on the classic Titanic: Mac
 | `Cabin`          | Cabin number (many values are missing)                                          |
 | `Embarked`       | Port of Embarkation: `C = Cherbourg`, `Q = Queenstown`, `S = Southampton`       |
 
-* Source of training data: Kaggle Titanic Machine Learning Disaster robert.bhero@gwu.edu for more informatio
+* Source of training data: Kaggle Titanic Machine Learning Disaster robert.bhero@gwu.edu for more information
 * How training data was divided into training and validation data: 80% training, 20% validation
 * * Number of rows in training and validation data:
    * Training rows: 712 rows
